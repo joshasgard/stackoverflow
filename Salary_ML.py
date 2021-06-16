@@ -18,7 +18,7 @@ def clean_data(df):
     This function cleans df using the following steps to produce X and y:
     1. Drop all the rows with no salaries
     2. Create X as all the columns that are not the Salary column
-    3. Create y as the Salary column
+    3. Create y as the Salary column, our response
     4. Drop the Salary, Respondent, and the ExpectedSalary columns
     5. For each numeric variable, fill the column with the mean value.
     6. Create dummy columns for all the categorical variables, drop the original columns
